@@ -1,0 +1,210 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+}
+
+/* color de fondo del encabezado */
+.header {
+    background-color: #2a944a;
+}
+
+/* centrar imagen y ajustar tamaño */
+.custom-image {
+    max-width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* estilo del pie de página */
+.footer {
+    background-color: #f8f9fa; /* Color de fondo del pie de página */
+    color: #6c757d; /* Color del texto */
+}
+
+/* Fuente para el encabezado principal */
+.header h1 {
+    font-family: 'Playfair Display', serif; 
+}
+
+/* Fuente para el subtítulo */
+.container h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700; 
+}
+
+/* Cambiar la fuente de los títulos de secciones */
+.container h2, .container h3 {
+    font-family: 'Playfair Display', serif; 
+}
+
+/* Cambiar el color del texto de bienvenida */
+.bienvenida {
+    color: #1c533a;
+    font-weight: bold;
+}
+
+/* Fuente para los títulos de Presentación, Misión y Visión */
+.titulo-seccion {
+    color: #2b1c53; 
+    font-family: 'Playfair Display', serif; 
+}
+
+/* Fuente para los títulos de contacto */
+.titulo-contacto {
+    color: #2b1c53; 
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.link-contacto {
+    color: #1c533a; 
+    text-decoration: none;
+}
+
+.link-contacto:hover {
+    color: #1c533a; 
+    text-decoration: underline;
+}
+
+/* Cambia el color del enlace "Inicio" */
+.nav-link-inicio {
+    color: #1c533a; 
+    text-decoration: none;
+}
+
+.nav-link-inicio:hover {
+    color: #1c533a; 
+    text-decoration: underline;
+}
+
+/* Cambia el color del enlace "Nosotros" */
+.nav-link-nosotros {
+    color: #1c533a; 
+    text-decoration: none;
+}
+
+.nav-link-nosotros:hover {
+    color: #1c533a; 
+    text-decoration: underline;
+}
+
+/* Cambia el color del enlace "Servicios" */
+.nav-link-servicios {
+    color: #1c533a; 
+    text-decoration: none;
+}
+
+.nav-link-servicios:hover {
+    color: #1c533a; 
+    text-decoration: underline;
+}
+
+.subtitulo-seccion {
+    color: #2b1c53; 
+    font-weight: bold;
+}
+
+.d-flex .content-text {
+    flex: 1;
+}
+
+.img-container {
+    max-width: 250px; 
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: white; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 0; 
+    margin-top: 30px; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    font-style: italic; 
+    color: white; 
+    text-decoration: none; 
+}
+
+#involucrate-link {
+    color: #1c533a; 
+}
+
+#involucrate-link:hover {
+    color: #1c533a; 
+}
+
+.header h1 {
+    font-family: 'Playfair Display', serif !important;
+}
+
+.footer {
+    font-size: 0.8em;
+    color: #333;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.mt-4 {
+    margin-top: 20px; 
+}
+
+.footer {
+    font-size: 0.8em;
+    color: #333;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.mt-custom {
+    margin-top: 50px; /* Ajusta este valor según lo que necesites */
+}
+
